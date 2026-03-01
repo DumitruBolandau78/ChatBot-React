@@ -1,0 +1,7 @@
+.chat-messages-container {
+  max-height: 90dvh;
+  overflow-y: auto;
+  scrollbar-width: none;
+  margin-top: 20px;
+  flex-grow: 1;
+}
