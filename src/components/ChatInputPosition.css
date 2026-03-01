@@ -1,0 +1,14 @@
+.chat-input-position-text {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+    color: gray;
+}
+
+.chat-input-container.top, .chat-input-position-text.top {
+    order: -1;
+}
+
+.chat-input-container.bottom, .chat-input-position-text.bottom {
+    order: 3;
+}

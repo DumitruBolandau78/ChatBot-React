@@ -2,7 +2,7 @@ import { useState } from "react";
 import ollama from "ollama";
 import "./ChatInput.css";
 
-const ChatInput = ({ chatMessages, setChatMessages }) => {
+const ChatInput = ({ chatMessages, setChatMessages, inputPosition }) => {
   const [inputText, setInputText] = useState("");
 
   function saveInputText(e) {
@@ -74,7 +74,7 @@ const ChatInput = ({ chatMessages, setChatMessages }) => {
   };
 
   return (
-    <div className="chat-input-container">
+    <div className={"chat-input-container " + inputPosition}>
       <input
         className="chat-input"
         value={inputText}
