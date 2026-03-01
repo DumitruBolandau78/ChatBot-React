@@ -16,6 +16,9 @@ function App() {
     }
   }, []);
 
+  console.log("text");
+  
+
   return (
     <div className="app-container">
       <ChatMessages chatMessages={chatMessages} />
